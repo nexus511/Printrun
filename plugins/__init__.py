@@ -17,5 +17,7 @@
 #from plugins.sample import SampleHandler
 #
 #PRINTCORE_HANDLER = [SampleHandler()]
-PRINTCORE_HANDLER = []
+
+from plugins.ledstatus import LedStatus
+PRINTCORE_HANDLER = [LedStatus()]
 
