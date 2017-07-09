@@ -18,6 +18,6 @@
 #
 #PRINTCORE_HANDLER = [SampleHandler()]
 
-from plugins.ledstatus import LedStatus
+from printrun.plugins.ledstatus import LedStatus
 PRINTCORE_HANDLER = [LedStatus()]
 
